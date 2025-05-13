@@ -50,17 +50,6 @@ The objective is to build, tune, and evaluate several classification models to:
    - Primary metric: ROC AUC
    - Secondary metrics: accuracy, sensitivity, specificity
    - ROC curves plotted for all models
-
----
-
-## Key Findings
-
-- The best-performing model (by ROC AUC) was:
-  - **[Model Name Here]** with ROC AUC of **[0.XXX]**
-- Tree-based models (Random Forest, XGBoost) showed high sensitivity but also higher variance.
-- LASSO provided a sparse model with solid accuracy and interpretability.
-- Feature importance consistently highlighted `glucose`, `BMI`, and `age`.
-
 ---
 
 ## Reproducibility Instructions
